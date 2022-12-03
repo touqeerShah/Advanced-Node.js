@@ -1,0 +1,16 @@
+{
+  "name": "asynchronous-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Promiss-example.js",
+  "scripts": {
+    "start": "nodemon -r esm index.js",
+    "concurrent": "node -r esm concurrent-tast.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "log-update": "^5.0.1"
+  }
+}
